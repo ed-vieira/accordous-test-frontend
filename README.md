@@ -1,195 +1,124 @@
-# CoreUI Vue - Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
-### Check out our Vue Admin Templates and support CoreUI Development
+## Descrição
 
-[![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/bundle.html?support=1)
+  Tecnologias
+   <p>Front-end</p>
+   <ul>
+     <li>Vue 2.5</li>
+     <li>Bootstrap 4</li>
+     <li>Bootstrap-vue 2</li>
+     <li>Template: Core UI - Vue</li>
+     <li>Docker / Docker-compose</li>
+   </ul> 
 
-[Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1)
+   <p> Back-end</p> 
+     <ul>
+     <li>Framework: Laravel 5.8</li>
+     <li>Banco de dados: MySQL 5.7</li>
+     <li>Docker / Docker-compose</li>
+   </ul> 
 
-This is Vue.js version of our Bootstrap 4 admin template [CoreUI](https://github.com/coreui/coreui-free-bootstrap-admin-template).
+## Requisitos
+  <p>preparado para ser executado utilizando <u>Linux</u> como sistema operacional,
+    utilizando <u>docker versão 20.10.*</u> e <u>docker-compose versão 1.28.*</u>.
+  </p>
 
-Please help us on [Product Hunt](https://www.producthunt.com/posts/coreui-open-source-bootstrap-4-admin-template-with-angular-2-react-js-vue-js-support) & [Designer News](https://www.designernews.co/stories/81127). Thanks in advance!
 
-Why I decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Boostrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
+## Clonar o projeto (back-end)
 
-CoreUI is an Open Source Vue & Bootstrap Admin Template. But CoreUI is not just another Admin Template. It goes way beyond hitherto admin templates thanks to transparent code and file structure. And if that's not enough, let’s just add that CoreUI consists bunch of unique features and over 1000 high quality icons.
+<a href="https://github.com/ed-vieira/laravel-test-backend" target="_blank">
+  Projeto back-end
+</a>
 
-CoreUI is based on Bootstrap 4 and offers 6 versions: [HTML5 AJAX](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax), [HTML5 Static](https://github.com/coreui/coreui-free-bootstrap-admin-template), [AngularJS](https://github.com/mrholek/CoreUI-AngularJS), [Angular 2+](https://github.com/coreui/coreui-free-angular-admin-template), [React.js](https://github.com/coreui/coreui-free-react-admin-template) & [Vue.js](https://github.com/coreui/coreui-free-vue-admin-template).
-
-CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
-
-[![CoreUI Vue Free Bootstrap Admin Template](http://coreui.io/assets/img/coreui.png "CoreUI Vue Free Bootstrap Admin Template")](http://coreui.io)
-
-**NOTE:** Please remember to **STAR** this project and **FOLLOW** [my Github](https://github.com/coreui) to keep you update with this template.
-
-## Demo
-
-A fully functional demo is available at [CoreUI](http://coreui.io/)
-
-## Table of Contents
-
-* [Versions](#versions)
-* [CoreUI Pro](#coreui-pro)
-* [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
-* [Installation](#installation)
-* [Usage](#usage)
-* [What's included](#whats-included)
-* [Documentation](#documentation)
-* [Contributing](#contributing)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Community](#community)
-* [Community Projects](#community-projects)
-* [License](#license)
-* [Support CoreUI Development](#support-coreui-development)
-
-## Versions
-
-CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
-
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Bootstrap Admin Template (Ajax)](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax)
-* [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* 🚧 [CoreUI Free .NET Core 2 Admin Template](https://github.com/mrholek/CoreUI-NET) (Available Soon)
-* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
-* 🚧 [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
-
-## CoreUI Pro
-
-* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Bootstrap Admin Template (Ajax)](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
-
-## Admin Templates built on top of CoreUI Pro
-
-| CoreUI Pro | Prime | Root | Alba | Leaf |
-| --- | --- | --- | --- | --- |
-| [![CoreUI Pro Admin Template](https://coreui.io/assets/img/example-coureui.jpg)](https://coreui.io/pro/) | [![Prime Admin Template](https://genesisui.com/assets/img/templates/prime1280.jpg)](https://genesisui.com/admin-templates/bootstrap/prime/?support=1) | [![Root Admin Template](https://genesisui.com/assets/img/templates/root1280.jpg)](https://genesisui.com/admin-templates/bootstrap/root/?support=1) | [![Alba Admin Template](https://genesisui.com/assets/img/templates/alba1280.jpg)](https://genesisui.com/admin-templates/bootstrap/alba/?support=1) | [![Leaf Admin Template](https://genesisui.com/assets/img/templates/leaf1280.jpg)](https://genesisui.com/admin-templates/bootstrap/leaf/?support=1)
-
-## Installation
-
-### Clone repo
-
-``` bash
-# clone the repo
-$ git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue
-
-# go into app's directory
-$ cd CoreUI-Vue
-
-# install app's dependencies
-$ npm install
+```bash
+$ git clone git@github.com:ed-vieira/laravel-test-backend.git
 ```
 
-## Usage
+## Clonar o projeto (front-end)
 
-``` bash
-# serve with hot reload at localhost:8080
-npm run serve
+<a href="https://github.com/ed-vieira/accordous-test-frontend" target="_blank">
+  Projeto front-end
+</a>
 
-# build for production with minification
-npm run build
-
-# run linter
-npm run lint
-
-# run unit tests
-npm run test:unit
-
-# run e2e tests
-npm run test:e2e
-
+```bash
+$ git clone git@github.com:ed-vieira/accordous-test-frontend.git
 ```
 
-For a detailed explanation on how things work, check out the [Vue CLI Guide](https://cli.vuejs.org/guide/).
 
-## What's included
+## Instalação
+  <p> Para ser executado corretamente é necessário executar os comandos necessários na ordem 
+  correta  </p>
+  <p> Para auxiliar nesta tarefa é utilizado o <strong>Makefile</strong> para simplificar e organizar os comandos, de forma que comandos mais complexos ou que precisam ser executados em uma ordem determinada possam ser executados de maneira correta. 
+  </p> 
 
-Within the download you'll find the following directories and files:
+ <a href="https://github.com/ed-vieira/laravel-test-backend" target="_blank">
+  <h4>Back-end</h4>
+ </a>
 
-```
-CoreUI-Vue/
-├── public/              # pure static assets (directly copied)
-│   └── index.html           # index.html template
-├── src/                 # project root
-│   ├── assets/                 # module assets (processed by webpack)
-│   │   └── scss/               # user styles
-│   ├── components/             # ui components
-│   ├── containers/             # ui containers
-│   ├── router/                 # routing 
-│   ├── shared/                 # utils
-│   ├── views/                  # ui views
-│   ├── _nav.js                 # sidebar nav config
-│   ├── App.vue                 # main app component
-│   └── main.js                 # app entry file
-├── test/
-│   └── unit/            # unit tests
-│   └── e2e/             # e2e tests
-├── .eslintrc.js         # eslint config
-├── .gitignore           # defaults for gitignore
-├── .postcssrc.js        # postcss config
-├── CHANGELOG.md
-├── README.md
-├── babel.config.js      # babel config
-├── jest.config.js       # jest config
-├── vue.config.js        # vue-cli config
-├── LICENSE
-└── package.json         # build scripts and dependencies
+ <p> Para executar o projeto pela primeira vez execute os comandos na pasta do projeto: </p>
+
+Instale as dependencias:
+```bash
+$ make install
 ```
 
-## Bugs and feature requests
+Execute o build dos containers:
+```bash
+$ make init
+```
 
-Have a bug or a feature request? [Please open a new issue](https://github.com/coreui/coreui-free-vue-admin-template/issues).
+<p> Execute as migrations e o seeder para criar e popular as tebelas: </p>
 
-## Documentation
+```bash
+$ make migrate-seed
+```
 
-CoreUI's documentation, is hosted on our website [CoreUI](http://coreui.io/)
 
-## Contributing
+<p> Os comandos irão prepara os arquivos de configuração e iniciarão os processos do docker-compose, os comandos podem ser vistos no arquivo <strong>Makefile</strong> na pasta do projeto.</p>
 
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+<p>O comando migrate-seed irá criar e preencher as tabelas com dados do Faker</p>
 
-Editor preferences are available in the [editor config](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+<p>Pode ser necessário alguns segundos de diferença entre a execução dos dois comandos porque o cointainer do banco de dados pode ja ter iniciado com sucesso mas ainda não estar pronto para estabelecer conexões. </p>
 
-## Versioning
 
-For transparency into our release cycle and in striving to maintain backward compatibility,CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+<a href="https://github.com/ed-vieira/accordous-test-frontend" target="_blank">
+ <h4>Front-end</h4>
+</a> 
 
-See [the Releases section of our project](https://github.com/coreui/coreui-free-vue-admin-template/releases) for changelogs for each release version.
+ <p> Para executar o projeto front-end pela primeira vez execute o comando na pasta do projeto: </p>
 
-## Creators
+```bash
+$ make install
+```
+ <p>Este comando prepara os arquivos de configuração e inicia o container</p>
 
-**Łukasz Holeczek**
 
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+ <p> O container do projeto do front-end estara sendo executado na porta 80 e o back-end estara sendo executado na porta 8080 </p>  
 
-**Andrzej Kopański**
+<p>
+ <a href="http://localhost" target="_blank"> 
+  http://localhost
+ </a> 
+</p>
 
-* <https://github.com/xidedix>
 
-## Community
+<p>* Possíveis erros</p>
 
-Get updates on CoreUI's development and chat with the project maintainers and community members.
+<p>Se sua configuração do docker exigir privilégios de usuario basta executar os mesmos comandos como sudo</p>
+<p>exemplo:</p>
 
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
+```bash
+$ sudo make install
+```
 
-### Community Projects
+<p>Problemas com o comando <strong>make</strong> ?</p>
+<p>Normalmente este comando vem instalado por padrão, caso este comando não seja reconhecido em sua distro:</p>
 
-Some of projects created by community but not maintained by CoreUI team.
+<p>
+<a href="https://askubuntu.com/questions/192645/make-command-not-found" target="_blank">https://askubuntu.com/questions/192645/make-command-not-found</a>
+</p>
 
-* [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
-* [Colmena](https://github.com/colmena/colmena)
 
-## Copyright and license
+## License
 
-copyright 2017 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
-There is only one limitation you cannot re-distribute the `CoreUI` as stock nor if you modify the `CoreUI`. In the past we faced some problems with persons who tried to sell `CoreUI` based templates.
-
-## Support CoreUI Development
-CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by donating on [PayPal](https://www.paypal.me/holeczek), buying [CoreUI Pro Version](https://coreui.io/pro) or buying one of our [premium admin templates](https://genesisui.com/?support=1).
-
-As of now I am exploring the possibility of working on CoreUI fulltime - if you are a business that is building core products using CoreUI, I am also open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).
+[MIT licensed](LICENSE).
