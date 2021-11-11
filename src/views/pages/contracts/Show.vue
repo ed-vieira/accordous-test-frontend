@@ -42,7 +42,7 @@
 
                 <b-td>{{contract.property.title}}</b-td>
 
-                <b-td>{{contract.property.descrition || '-'}}</b-td>
+                <b-td>{{contract.property.description || '-'}}</b-td>
 
                 <b-td>{{contract.property.state}}</b-td>
 

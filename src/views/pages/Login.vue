@@ -9,7 +9,7 @@
                 <b-form @submit.prevent="doLogin">
                   <h1>Login</h1>
                   <p class="text-muted">Sign In to your account</p>
-                  <p>{{message}}</p>
+                  <p v-if="hasError" class="alert alert-danger">{{message}}</p>
                   <p>Email: <u>admin@developer.com</u>
                   <br>Senha: <u>admin</u></p>
                   <b-input-group class="mb-3">
@@ -59,13 +59,14 @@ export default {
         password: ''
       },
       message: '',
+      hasError: false,
       formBtnDisabled: false,
     }
   },
   methods: {
     doLogin(){
       this.formBtnDisabled = true
-
+      this.hasError = false
       this.$http.post('/api/auth/login', this.form).then(res => {
           if (res.data.user) {
             auth.login({
@@ -76,8 +77,8 @@ export default {
             });
           } else {
             this.message = res.data.message
+            this.hasError = true
           }
-
       }).catch(err => console.log(err))
       .finally(() => {
           this.formBtnDisabled = false;
