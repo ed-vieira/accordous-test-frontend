@@ -5,7 +5,7 @@
         <template slot="header">
              <i class="fa fa-file-text-o"></i>Contrato
         </template>
-        <caption>Contratante</caption>
+        <h6>Contratante</h6>
         <b-table-simple striped small fixed responsive="sm"  >
               <b-thead>
                   <b-th>Nome</b-th>
@@ -24,7 +24,7 @@
               </b-tr>
              </b-tbody>
         </b-table-simple>
-        <caption>Imóvel</caption>
+        <h6>Imóvel</h6>
         <b-table-simple striped small fixed responsive="sm"  >
 
               <b-thead >
@@ -62,7 +62,7 @@
         <b-row>
           <b-col cols="12" md="12" >
             <article>
-               <caption>Contrato</caption>
+               <h6>Contrato</h6>
                <hr/>
                <section>
                   <p v-html="contract.text"></p>
