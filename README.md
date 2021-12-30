@@ -26,12 +26,12 @@
 
 ## Clonar o projeto (back-end)
 
-<a href="https://github.com/ed-vieira/laravel-test-backend" target="_blank">
+<a href="https://github.com/ed-vieira/accordous-test-backend" target="_blank">
   Projeto back-end
 </a>
 
 ```bash
-$ git clone git@github.com:ed-vieira/laravel-test-backend.git
+$ git clone git@github.com:ed-vieira/accordous-test-backend.git
 ```
 
 ## Clonar o projeto (front-end)
